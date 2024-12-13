@@ -1,0 +1,136 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Page Navigation */
+.page {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.page.active {
+    display: block;
+}
+
+/* Home Page Styles */
+#home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #60a3bc;
+    color: #fff;
+}
+
+#home-page button {
+    margin-top: 20px;
+}
+
+/* Fun Fact Page Styles */
+#fun-fact-page {
+    background-color: #82ccdd;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+#category-select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#fact-display {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    width: 80%;
+    font-size: 18px;
+}
+
+button#save-favorite-btn {
+    margin-top: 20px;
+}
+
+/* Favorites Page Styles */
+#favorites-page {
+    background-color: #78e08f;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+#favorites-list {
+    list-style: none;
+    padding: 0;
+}
+
+#favorites-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clear-favorites-btn {
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}

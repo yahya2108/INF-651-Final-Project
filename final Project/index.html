@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Fun Fact Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Home Page -->
+    <section id="home-page" class="page active">
+        <h1>Welcome to the Random Fun Fact Generator</h1>
+        <p>Discover surprising and interesting facts from categories like Science, History, and Animals!</p>
+        <button id="get-started-btn">Get Started</button>
+    </section>
+
+    <!-- Fun Fact Page -->
+    <section id="fun-fact-page" class="page">
+        <h1>Random Fun Fact Generator</h1>
+        <label for="category-select">Choose a category:</label>
+        <select id="category-select">
+            <option value="science">Science</option>
+            <option value="animals">Animals</option>
+            <option value="history">History</option>
+        </select>
+
+        <button id="generate-fact-btn">Generate Fact</button>
+        <button id="surprise-me-btn">Surprise Me</button>
+
+        <h2>Here's your fun fact:</h2>
+        <p id="fact-display">Click the buttons to see a fun fact!</p>
+
+        <button id="save-favorite-btn">Save to Favorites</button>
+        <button id="view-favorites-btn">View My Favorites</button>
+    </section>
+
+    <!-- Favorites Page -->
+    <section id="favorites-page" class="page">
+        <h1>Your Favorite Fun Facts</h1>
+        <ul id="favorites-list"></ul>
+        <button id="clear-favorites-btn">Clear All Favorites</button>
+        <button id="back-to-facts-btn">Back to Fun Facts</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
